@@ -1,0 +1,12 @@
+#header {
+background-color: green;
+color: white;
+}
+
+.award {
+width:100px;
+height:auto;
+margin-top:5px;
+margin-bottom: 5px;
+margin-left:15px;
+}

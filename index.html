@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WINNER</title>
+<link rel="stylesheet" href="css/main.css" media="all">
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" media="all">
+</head>
+<body>
+    <div class="row">
+        <div id="header" class="col-md-12">
+            <H1> WINNER </H1>
+            <H2> A new way to share your life achievments with your friends </H2>
+        </div>
+    </div>
+    <ul class="nav nav-tabs">
+        <li role="presentation" class="active"><a href="#">Home</a></li>
+        <li role="presentation"><a href="#">Profile</a></li>
+        <li role="presentation"><a href="#">Messages</a></li>
+    </ul>
+    <div class="content-placeholder"></div>
+    <script id = "award-template" type = "text/x-handlebars-template">
+    {{#each this}}
+    <div class="row">
+        <div class="col-md-2">
+            <img class="award" height="100px" src="{{image}}">
+        </div>
+        <div class="col-md-6">
+            <h3>{{heading}}.</h3> <p>{{description}}</p>
+        </div>
+        <div class="col-md-4">
+            <h4>Manage your {{title}} </H4>
+            <button type="button" class="btn btn-default" aria-label="Left Align"> 
+                <span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>
+            </button>
+             <button type="button" class="btn btn-default" aria-label="Left Align"> 
+                <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+            </button>
+              <button type="button" class="btn btn-default" aria-label="Left Align"> 
+                <span class="glyphicon glyphicon-remove aria-hidden="true"></span>
+            </button>
+        </div>
+    </div>
+    {{/each}}
+    </script>
+ 
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="node_modules/handlebars/dist/handlebars.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

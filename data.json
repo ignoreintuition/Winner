@@ -1,0 +1,14 @@
+[
+    {
+            "title": "First Achievement",
+            "image": "assets/img/coffee.svg",
+            "heading": "Congrats on your first achievment.",
+            "description": "This is your first step towards making a better life for yourself."
+    },
+    {
+            "title": "Homeowner - Level 1",
+            "image": "assets/img/home.svg",
+            "heading": "You are now a first time homeowner",
+            "description": "What a big step in your life!"
+    }
+]
