@@ -3,10 +3,40 @@ background-color: green;
 color: white;
 }
 
+#footer {
+	background-color: blue;
+	color: white;
+	min-height:100px;
+	padding-left: 5%;
+	padding-right: 5%;
+}
 .award {
 width:100px;
 height:auto;
 margin-top:5px;
 margin-bottom: 5px;
 margin-left:15px;
+}
+
+
+.content {
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 10px;
+	min-height:400px;
+
+}
+
+#header {
+
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.ftr-l{
+	text-align: left;
+}
+
+.ftr-r{
+	text-align: right;
 }

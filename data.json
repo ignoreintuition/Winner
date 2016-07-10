@@ -23,7 +23,7 @@
     {
             "id": 4,
             "title": "Owning your first pet",
-            "image": "assets/img/pet.svg",
+            "image": "assets/img/fish.svg",
             "heading": "You have owned your first pet",
             "description": "Owning a pet is a set towards being a responsible adult"
     },
@@ -31,8 +31,29 @@
             "id": 5,
             "title": "Graduated from college",
             "image": "assets/img/book.svg",
-            "heading": "College is a gateway to new oppertunities",
-            "description": "By studying hard, bucking down, and overcoming adversity you have made earned your college degree"
+            "heading": "Graduated from College",
+            "description": "College is a gateway to new oppertunities.  By studying hard, bucking down, and overcoming adversity you have made earned your college degree"
+    },
+    {
+            "id": 6,
+            "title": "Learned to Cook",
+            "image": "assets/img/cooking.svg",
+            "heading": "You learned how to cook",
+            "description": "Cooking is a way to stimulate peoples senses.  Taste, smell, texture, and presentation make for a great meal."
+    },
+    {
+            "id": 7,
+            "title": "Travel",
+            "image": "assets/img/airplane.svg",
+            "heading": "You made your first big trip",
+            "description": "Traveling the world you can meet new people, learn about other cultures, and educate yourself"
+    },
+    {
+            "id": 8,
+            "title": "Backpacking",
+            "image": "assets/img/backpack.svg",
+            "heading": "You went on your first backpacking adventure",
+            "description": "Backpacking is a great way to see new places and get great excercise."
     }
 
 ]

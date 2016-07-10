@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>WINNER</title>
+    <title>WINNER | ACHIEVEMENTS</title>
     <link rel="stylesheet" href="css/main.css" media="all">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" media="all">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
@@ -17,36 +17,48 @@
     <ul class="nav nav-tabs">
         <li role="presentation"><a href="index.html">Home</a></li>
         <li role="presentation" class="active"><a href="achievments">Achievments</a></li>
-        <li role="presentation"><a href="#">Profile</a></li>
+        <li role="presentation"><a href="profile.html">Profile</a></li>
     </ul>
     <div id="container"> </div>
-    <div class="content-placeholder"></div>
+    <div class="content content-placeholder"></div>
+    <div class="row">
+        <div id="footer" class="col-md-12">
+         <div class="row">
+            <div class = "col-xs-6">
+                <p> Copyright Resurgence Web Design 2016.</p>
+            </div>
+            <div class = "col-xs-6">
+                <p> www.resurgencewebdesign.com</p>
+            </div>
+        </div>
+    </div>
+
     <script id = "award-template" type = "text/x-handlebars-template">
-        {{#each this}}
-            <div class="row">
-            <div class="col-md-2">
-            <img class="award" height="100px" src="{{image}}">
-            </div>
-            <div class="col-md-6">
-            <h3>{{heading}}.</h3> <p>{{description}}</p>
-            </div>
-            <div class="col-md-4">
-            <h4>Share your achievement: </h4>
-            <h5> {{title}} </h4>
-            <a href="http://twitter.com/home/?status={{title}} - {{description}}" target="_blank">
-            <button type="button" class="btn btn-default" aria-label="Left Align"> 
-            <span class="fa fa-twitter" aria-hidden="true">
-            </span>
-            </button></a>
-            <button type="button" class="btn btn-default" aria-label="Left Align"> 
-            <span class="fa fa-facebook-official" aria-hidden="true"></span>
-            </button>
-            <button type="button" class="btn btn-default" aria-label="Left Align"> 
-            <span class="fa fa-instagram" aria-hidden="true"></span>
-            </button>
-            </div>
-            </div>
-        {{/each}}
+    {{#each this}}
+    <div class="row">
+    <div class="col-md-2">
+    <img class="award" height="100px" src="{{image}}">
+    </div>
+    <div class="col-md-6">
+    <h3>{{heading}}.</h3> <p>{{description}}</p>
+    </div>
+    <div class="col-md-4">
+    <h4>Share your achievement: </h4>
+    <h5> {{title}} </h4>
+    <a href="http://twitter.com/home/?status={{title}} - {{description}}" target="_blank">
+    <button type="button" class="btn btn-default" aria-label="Left Align"> 
+    <span class="fa fa-twitter" aria-hidden="true">
+    </span>
+    </button></a>
+    <button type="button" class="btn btn-default" aria-label="Left Align"> 
+    <span class="fa fa-facebook-official" aria-hidden="true"></span>
+    </button>
+    <button type="button" class="btn btn-default" aria-label="Left Align"> 
+    <span class="fa fa-instagram" aria-hidden="true"></span>
+    </button>
+    </div>
+    </div>
+    {{/each}}
     </script>
 
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
