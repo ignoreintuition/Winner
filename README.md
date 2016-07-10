@@ -1,3 +1,3 @@
 # win
 
-Winner is a new way to share real life achievments to yoru friends on social media.
+Winner is a new way to share real life achievments to your friends on social media.
