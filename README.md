@@ -1,12 +1,13 @@
-# win
+#Winner - A Life Achievement App
+##Winner is a new way to share real life achievments to your friends on social media.
 
-Winner is a new way to share real life achievments to yoru friends on social media.
+###Setup
 
-# Setup
+npm install
 
-Install client dependencies (root)
+crud/npm install
 
-Install server dependencies (crud)
-
+***
 Creating the mongodb database
+
 mongoimport --jsonArray --db win  --collection achievements < data.json  
