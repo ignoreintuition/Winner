@@ -4,6 +4,7 @@
 	var theTemplate = Handlebars.compile(theTemplateScript);
 	$.getJSON( "http://localhost:3000/win", function ( data ){
 		var context = data;
+		console.log(data);
 		var theCompiledHTML = theTemplate(context);
 		$('.content-placeholder').html(theCompiledHTML);
 	});

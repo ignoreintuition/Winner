@@ -1,36 +1,37 @@
-#header {
-background-color: green;
-color: white;
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
 }
 
-#footer {
-	background-color: blue;
-	color: white;
-	min-height:100px;
+#header {
+	background-color: #665E52;
+	color: #DAD5B7;	
 	padding-left: 5%;
 	padding-right: 5%;
 }
-.award {
-width:100px;
-height:auto;
-margin-top:5px;
-margin-bottom: 5px;
-margin-left:15px;
-}
 
+#footer {
+	background-color: #243757;
+	color: #DAD5B7;
+	padding-top: 10px;
+	padding-left: 5%;
+	padding-right: 5%;
+
+}
+.award {
+	width:100px;
+	height:auto;
+	margin-top:5px;
+	margin-bottom: 5px;
+	margin-left:15px;
+}
 
 .content {
 	padding-left: 5%;
 	padding-right: 5%;
 	padding-top: 10px;
-	min-height:400px;
-
-}
-
-#header {
-
-	padding-left: 5%;
-	padding-right: 5%;
 }
 
 .ftr-l{
@@ -39,4 +40,17 @@ margin-left:15px;
 
 .ftr-r{
 	text-align: right;
+}
+
+.content {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -50px; 
+}
+.content:after {
+  content: "";
+  display: block;
+}
+#footer, .content:after {
+  height: 50px; 
 }

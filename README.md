@@ -18,10 +18,11 @@ Currently winner is still in it's prototype phase and looking for contributors.
 ###Setup
 
 npm install
-
 crud/npm install
+DEBUG=crud ./bin/www
 
 ***
 Creating the mongodb database
 
 mongoimport --jsonArray --db win  --collection achievements < data.json  
+mongod --rest --jsonp
