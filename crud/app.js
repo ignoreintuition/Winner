@@ -16,7 +16,7 @@ var win = require('./routes/win');
 
 
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/win', function(err) {
+mongoose.connect('mongodb://<user>:<password>@ds015335.mlab.com:15335/heroku_3p2mw14z', function(err) {
     if(err) {
         console.log('connection error', err);
     } else {
